@@ -1,0 +1,12 @@
+name: yolov3-tf2-cpu
+
+dependencies:
+  - python==3.8
+  - pip
+  - matplotlib
+  - opencv
+  - pip:
+    - tensorflow==2.3.1
+    - lxml
+    - tqdm
+    - -e .
